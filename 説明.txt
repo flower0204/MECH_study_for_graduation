@@ -1,0 +1,12 @@
+環境：utf-8
+実行：platex→pBibTex→platex→platex
+書式：graduationフォルダ内のmain, intro, second...というファイルに直接書いて実行すれば書式が出る．
+mainファイル単位でも，intro.tex, second.texなど個別ファイル単位でもコンパイルできます．
+
+参考文献：jcon-jsme（説明はjcon-example.pdfやjcon-example.texに記載されている）
+参考文献使い方：intro.texに引用の仕方例を書いた．
+参考文献ファイル：ref_ver2.bibなので，同じように書けばできます．
+
+
+書式をいじりたい時：基本はjsmepaper.cls，jsadd.styに書式が記述されているので，それ見て．
+参考文献の書式をいじりたい時：jcon-jsme.bstに書式が記述されているので，そこをいじる．

@@ -1,0 +1,112 @@
+\documentclass[a4jsme, fleqn]{jsmepaper}
+\usepackage{epic,eepic}
+\pagestyle{empty}
+\usepackage[dvipdfmx]{graphicx,color}
+\usepackage{bmpsize}
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage{url, float}
+\usepackage{fancyhdr}
+\usepackage[format=hang,labelsep=quad,margin=5pt]{caption}
+\usepackage{lastpage}
+\usepackage{natbib}
+\usepackage{etoolbox}
+\usepackage{ifthen}
+\usepackage{subfiles}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%設定%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\graphicspath{{./fig/header/}{./fig/intro/}{./fig/second/}{./fig/third/}}
+%figureの相対パスを指定しておきます
+
+\newif\iflatexe\latexetrue
+
+%subfileで参考文献が出るようにする
+\def\biblio{\def\newblock{\hskip .11em plus .33em minus .07em}\renewcommand{\refname}{文献}\nocite{*}\bibliographystyle{./jecon-jsme}\bibliography{./ref_ver2}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\renewcommand\UrlFont{\rmfamily}    %urlのフォントが変だから変更 
+\DeclareFontShape{JY1}{mc}{m}{it}{<->ssub*mc/m/n}{}
+\DeclareFontShape{JY1}{mc}{bx}{it}{<->ssub*gt/m/n}{}
+\DeclareFontShape{JT1}{mc}{m}{it}{<->ssub*mc/m/n}{}
+\DeclareFontShape{JT1}{mc}{bx}{it}{<->ssub*gt/m/n}{}
+%なんか警告出てくるから変えといた
+
+
+\def\Ch#1{第\ref{ch: #1}章}
+\def\Sec#1{第\ref{sec: #1}節}
+\def\Subsec#1{第\ref{subsec: #1}項}
+\def\Subsubsec#1{第\ref{subsubsec: #1}項}
+\def\App#1{付録\ref{app: #1}}
+\def\Eq#1{式（\ref{eq: #1}）}
+\def\Fig#1{図~\ref{fig: #1}}
+\def\Tbl#1{表~\ref{tbl: #1}}
+
+\fboxrule=0.0pt
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[CO]{\fbox{\raisebox{-1ex}[2ex][1ex]{\includegraphics[width=7mm]{./tokyotech.jpg}}}\hspace{2mm}2020年度　前学期　東京工業大学　工学院　機械系　学士特定課題研究}
+\cfoot{\normalsize \thepage \ / \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.0pt}
+
+%
+\newcommand{\JSME}{日本機械学会}
+\newcommand{\bs}[1]{{$\backslash${#1}}\,}
+\newcommand{\mydoc}{jsme\-paper\-.cls}
+\newcommand{\addindex}[1]{#1\index{\protect #1}}
+%
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%ここから文章%%%%%%%%%%%%%%%%%%%%%%%%
+\title{\femph{とてもかっこいい研究タイトル}}
+\etitle{Your Study Is The Coolest Among The World} 
+%\jauthor{ふら　わー$^{*1}$}
+\eauthor{1711111 \hspace{4mm}　\femph{ふらわー} (FLOWER)}
+\supervisor{指導教員 \hspace{4mm} \femph{名字　名前} (MYOJI, Namae)}
+\eabstract{%
+The length of the abstract should be 200-300 words. In the beginning of the abstract, the subject of the paper should be stated clearly, together with its scope and objectives. Then, the methods, equipment, results and conclusions in the paper should be stated concisely in a sufficiently logical manner. The discussion on the results may also be stated to emphasize their importance appropriately.%
+}
+\keywords{Term1, Term2, Term3, Term4,…(Show five to ten key words)}
+
+
+\makeindex
+\begin{document}
+\def\biblio{}
+\maketitle
+\thispagestyle{empty}
+
+\thispagestyle{fancy}
+
+
+% ==== 文章開始 =========================================
+% 緒言
+\subfile{./intro.tex}
+
+% 全体概要 
+\subfile{./second.tex}
+\clearpage
+
+% 実験
+\subfile{./third.tex}
+
+% 結論
+\subfile{./conclusion.tex}
+
+% ==== 参考文献 =========================================
+\def\newblock{\hskip .11em plus .33em minus .07em}
+\renewcommand{\refname}{文献}
+\nocite{*}
+\bibliographystyle{./jecon-jsme}
+\bibliography{./ref_ver2}
+
+
+\section*{謝辞}
+めっちゃ感謝
+\vspace{1cm} 
+\flushright{2020年8月\\ふらわー}
+\end{document}
+
