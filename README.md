@@ -51,3 +51,8 @@ DOI="",
 \bibliographystyle{./jecon-jsme}
 \bibliography{./ref_ver2}
 ```
+# Overleaf  
+Overleafにてサンプル例を作りました．  
+プロジェクトをコピーして自分で編集してもらってもコンパイルができると思います．  
+原因を特定中ですが，subfile単位でのコンパイル時に画像が出てこないです．
+<https://www.overleaf.com/read/ndzzvqdwbhsv>
