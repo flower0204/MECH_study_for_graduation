@@ -37,7 +37,7 @@
 %  \maketitle
 %
 % Customized by Kikuo Fujita, Osaka University
-
+\RequirePackage{ragged2e}
 %
 \makeatletter
 \newcount\@abind
@@ -169,7 +169,8 @@
 % 		\textbf{\@ereceived}%
 % 	\end{center}%
 %  }\fi%
- \ifx\@eabstract\empty\else\@@abstract{\centering{\textbf{Abstract}}\\\raggedright{{\@eabstract}}}\fi
+ %\ifx\@eabstract\empty\else\@@abstract{\centering{\textbf{Abstract}}\\\raggedright{{\@eabstract}}}\fi
+ \ifx\@eabstract\empty\else\@@abstract{\centering{\textbf{Abstract}}\\\justify{{\@eabstract}}}\fi
  \ifx\@ekeywords\empty\else\addvspace{9pt}\@@keywords{\@ekeywords}\fi
  \addvspace{26pt}\par}
 %
