@@ -1,0 +1,73 @@
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2019/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: jecon-example.aux
+The style file: jecon.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 30 items from 20.
+Reallocated global_strs (elt_size=20001) to 30 items from 20.
+Reallocated glb_str_end (elt_size=4) to 30 items from 20.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: jecon-example.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 12000 items from 9000.
+Warning--you've exceeded 250, the entry-string-size, for entry essd-10-405-2018
+while executing--line 4792 of file jecon.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry doi:10.1175/2009BAMS2778.1
+while executing--line 4800 of file jecon.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry essd-10-405-2018
+while executing--line 4800 of file jecon.bst
+*Please notify the bibstyle designer*
+Warning--there's a number but no volume in 40018847518
+You've used 81 entries,
+            9552 wiz_defined-function locations,
+            2274 strings with 29229 characters,
+and the built_in function-call counts, 123538 in all, are:
+= -- 19597
+> -- 2868
+< -- 195
++ -- 995
+- -- 1016
+* -- 5186
+:= -- 15191
+add.period$ -- 45
+call.type$ -- 81
+change.case$ -- 657
+chr.to.int$ -- 95
+cite$ -- 82
+duplicate$ -- 3519
+empty$ -- 7028
+format.name$ -- 1312
+if$ -- 33870
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 258
+num.names$ -- 622
+pop$ -- 2127
+preamble$ -- 1
+purify$ -- 837
+quote$ -- 0
+skip$ -- 11623
+stack$ -- 0
+substring$ -- 10075
+swap$ -- 308
+text.length$ -- 340
+text.prefix$ -- 187
+top$ -- 0
+type$ -- 792
+warning$ -- 1
+while$ -- 458
+width$ -- 0
+write$ -- 1253
+is.kanji.str$ -- 2918
+(There were 4 warnings)

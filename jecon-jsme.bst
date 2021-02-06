@@ -210,8 +210,8 @@ FUNCTION {bst.hide.number}
 % author-yearで変わらない)。
 %
 FUNCTION {bst.use.number.index}
-{ #0 }	  % Not use number index  (default)
-% { #1 }    % #0 以外 -> Use number index
+ { #0 }	  % Not use number index  (default)
+%{ #1 }    % #0 以外 -> Use number index
 
 % number index の前に付ける文字列 (bst.use.number.indexに0以外を指定していると
 % きのみ有効)．
@@ -248,7 +248,8 @@ FUNCTION {bst.number.index.bibhang.ten}
 { "2.55em" }	% (default)
 % bst.number.index.digit = 3 のときの設定
 FUNCTION {bst.number.index.bibhang.hund}
-{ "3.05em" }	% (default)
+%{ "3.05em" }	% (default)
+{ "4.55em" }	
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

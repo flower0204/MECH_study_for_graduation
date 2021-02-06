@@ -1,0 +1,49 @@
+\BOOKMARK [1][-]{section.1}{1 導入}{}% 1
+\BOOKMARK [1][-]{section.2}{2 使用例}{}% 2
+\BOOKMARK [1][-]{section.3}{3 使用法}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{3.1 必要なもの}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{3.2 jecon.bst のインストール}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{3.3 bib ファイルの書き方}{section.3}% 6
+\BOOKMARK [3][-]{subsubsection.3.3.1}{3.3.1 authorフィールドの指定方法}{subsection.3.3}% 7
+\BOOKMARK [3][-]{subsubsection.3.3.2}{3.3.2 yomi フィールドの指定}{subsection.3.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.3.3}{3.3.3 pages フィールド}{subsection.3.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.3.4}{3.3.4 邦訳書の情報も付ける場合}{subsection.3.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.3.5}{3.3.5 邦訳書の書き方}{subsection.3.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.3.6}{3.3.6 bibファイルにおける日本語での人名の書き方}{subsection.3.3}% 12
+\BOOKMARK [2][-]{subsection.3.4}{3.4 tex ファイルの書き方}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.5}{3.5 コンパイルの方法}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.6}{3.6 ファイルの文字コードについて}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.7}{3.7 ユニコード文字の利用について}{section.3}% 16
+\BOOKMARK [1][-]{section.4}{4 カスタマイズ}{}% 17
+\BOOKMARK [2][-]{subsection.4.1}{4.1 関数についての注}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.2}{4.2 カスタマイズ例}{section.4}% 19
+\BOOKMARK [3][-]{subsubsection.4.2.1}{4.2.1 author, editor 間の区切を ``and'' から ``\046'' に変更する}{subsection.4.2}% 20
+\BOOKMARK [3][-]{subsubsection.4.2.2}{4.2.2 author を small caps 体にする}{subsection.4.2}% 21
+\BOOKMARK [3][-]{subsubsection.4.2.3}{4.2.3 volume と number の書式の変更}{subsection.4.2}% 22
+\BOOKMARK [3][-]{subsubsection.4.2.4}{4.2.4 著者名の省略方法を変更する}{subsection.4.2}% 23
+\BOOKMARK [3][-]{subsubsection.4.2.5}{4.2.5 author（editor）名における「姓」，「名」の順序を変更する}{subsection.4.2}% 24
+\BOOKMARK [3][-]{subsubsection.4.2.6}{4.2.6 first name を頭文字のみにする}{subsection.4.2}% 25
+\BOOKMARK [3][-]{subsubsection.4.2.7}{4.2.7 title 内の先頭文字以外を小文字に変換する}{subsection.4.2}% 26
+\BOOKMARK [3][-]{subsubsection.4.2.8}{4.2.8 参考文献の文献の前に番号を付ける}{subsection.4.2}% 27
+\BOOKMARK [3][-]{subsubsection.4.2.9}{4.2.9 年によるソートを逆にする（新しい文献を上にする）}{subsection.4.2}% 28
+\BOOKMARK [3][-]{subsubsection.4.2.10}{4.2.10 日本語 author（editor）の姓名の間に空白（文字列）を入れる}{subsection.4.2}% 29
+\BOOKMARK [3][-]{subsubsection.4.2.11}{4.2.11 年の表示される位置を後ろにもってくる}{subsection.4.2}% 30
+\BOOKMARK [3][-]{subsubsection.4.2.12}{4.2.12 日本語文献に含まれる数字（年，月，号，巻等）を漢数字に変換する}{subsection.4.2}% 31
+\BOOKMARK [3][-]{subsubsection.4.2.13}{4.2.13 区切り文字（ピリオド，カンマ） について}{subsection.4.2}% 32
+\BOOKMARK [3][-]{subsubsection.4.2.14}{4.2.14 著者数が非常に多いケース}{subsection.4.2}% 33
+\BOOKMARK [2][-]{subsection.4.3}{4.3 特殊なフィールド}{section.4}% 34
+\BOOKMARK [3][-]{subsubsection.4.3.1}{4.3.1 urlとaccessフィールド}{subsection.4.3}% 35
+\BOOKMARK [3][-]{subsubsection.4.3.2}{4.3.2 DOIフィールド}{subsection.4.3}% 36
+\BOOKMARK [1][-]{section.5}{5 文献ソートのルールについて}{}% 37
+\BOOKMARK [2][-]{subsection.5.1}{5.1 基本的なルール}{section.5}% 38
+\BOOKMARK [2][-]{subsection.5.2}{5.2 引用順でそのまま参考文献を並べる}{section.5}% 39
+\BOOKMARK [2][-]{subsection.5.3}{5.3 文献のタイプによって分けて並べる}{section.5}% 40
+\BOOKMARK [2][-]{subsection.5.4}{5.4 year（年）に従って並べる}{section.5}% 41
+\BOOKMARK [2][-]{subsection.5.5}{5.5 absorder フィールドを利用した並べ替え}{section.5}% 42
+\BOOKMARK [3][-]{subsubsection.5.5.1}{5.5.1 absorder フィールドを無視したいとき}{subsection.5.5}% 43
+\BOOKMARK [2][-]{subsection.5.6}{5.6 order フィールドを利用した並べ替え}{section.5}% 44
+\BOOKMARK [3][-]{subsubsection.5.6.1}{5.6.1 利用例}{subsection.5.6}% 45
+\BOOKMARK [2][-]{subsection.5.7}{5.7 month フィールドを利用した並べ替え}{section.5}% 46
+\BOOKMARK [1][-]{section.6}{6 不具合}{}% 47
+\BOOKMARK [1][-]{section.7}{7 その他}{}% 48
+\BOOKMARK [1][-]{section.7}{参考文献}{}% 49

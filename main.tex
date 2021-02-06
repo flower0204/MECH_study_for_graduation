@@ -1,5 +1,4 @@
 \documentclass[a4jsme, fleqn]{jsmepaper}
-\usepackage{ragged2e}
 \usepackage{epic,eepic}
 \pagestyle{empty}
 \usepackage[dvipdfmx]{graphicx,color}
@@ -10,7 +9,7 @@
 \usepackage{fancyhdr}
 \usepackage[format=hang,labelsep=quad,margin=5pt]{caption}
 \usepackage{lastpage}
-\usepackage{natbib}
+\usepackage{natbib2}
 \usepackage{etoolbox}
 \usepackage{ifthen}
 \usepackage{subfiles}
@@ -64,7 +63,9 @@
 
 %%%%%%%%%%%%%%%%%%%%%%ここから文章%%%%%%%%%%%%%%%%%%%%%%%%
 \title{\femph{とてもかっこいい研究タイトル}}
+\jsubtitle{\femph{サブタイトル}}
 \etitle{Your Study Is The Coolest Among The World} 
+\esubtitle{subtitlesubtitlesubtitle}
 %\jauthor{ふら　わー$^{*1}$}
 \eauthor{1711111 \hspace{4mm}　\femph{ふらわー} (FLOWER)}
 \supervisor{指導教員 \hspace{4mm} \femph{名字　名前} (MYOJI, Namae)}
@@ -107,7 +108,7 @@ The length of the abstract should be 200-300 words. In the beginning of the abst
 \bibliography{./ref_ver2}
 
 
-\section*{謝辞}
+\section*{{謝辞}}
 めっちゃ感謝
 \vspace{1cm} 
 \flushright{2020年8月\\ふらわー}

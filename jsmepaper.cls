@@ -281,7 +281,8 @@
    {\protect\normalsize{.}\leavevmode\setbox\@tempboxa\hbox{#1}%
     \hspace*{1.2ex}\protect\@spsection{{\normalsize\special{pdf:literal direct q 0.3 w 2 Tr}#1\special{pdf:literal direct Q}}}}}
 \newcommand{\@ssection}[1]{\@startsection{section}{10}{\z@}%
-   {0.0\Cvs \@plus.5\Cdp \@minus.2\Cdp}%
+   %{0.0\Cvs \@plus.5\Cdp \@minus.2\Cdp}%
+   {0.0\Cvs \@minus.6\Cdp}
    {.35\Cvs \@plus.3\Cdp}%
    {\reset@font\semilarge\center\bfseries}
    {\leavevmode\setbox\@tempboxa\hbox{#1}%
@@ -334,7 +335,7 @@
   {\if@restonecol\onecolumn\else\clearpage\fi}
 %
 \newenvironment{thebibliography}[1] {\bigskip\par
- \parindent=0pt\hfil{\semilarge\bf\makebox[5zw][s]{{\normalsize\refname}}}
+ \parindent=0pt\hfil\femph{\semilarge\bf\makebox[5zw][s]{{\normalsize\refname}}}
    \vskip 2ex\par
    \list{}{%
 		\setlength{\baselineskip}{15pt}%

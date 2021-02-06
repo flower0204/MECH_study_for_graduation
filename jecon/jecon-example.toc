@@ -1,0 +1,49 @@
+\contentsline {section}{\numberline {1}導入}{2}{section.1}% 
+\contentsline {section}{\numberline {2}使用例}{3}{section.2}% 
+\contentsline {section}{\numberline {3}使用法}{5}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}必要なもの}{5}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}\texttt {jecon.bst} のインストール}{5}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}\texttt {bib} ファイルの書き方}{5}{subsection.3.3}% 
+\contentsline {subsubsection}{\numberline {3.3.1}\texttt {author}フィールドの指定方法}{6}{subsubsection.3.3.1}% 
+\contentsline {subsubsection}{\numberline {3.3.2}\texttt {yomi} フィールドの指定}{6}{subsubsection.3.3.2}% 
+\contentsline {subsubsection}{\numberline {3.3.3}\texttt {pages} フィールド}{7}{subsubsection.3.3.3}% 
+\contentsline {subsubsection}{\numberline {3.3.4}邦訳書の情報も付ける場合}{7}{subsubsection.3.3.4}% 
+\contentsline {subsubsection}{\numberline {3.3.5}邦訳書の書き方}{9}{subsubsection.3.3.5}% 
+\contentsline {subsubsection}{\numberline {3.3.6}bibファイルにおける日本語での人名の書き方}{10}{subsubsection.3.3.6}% 
+\contentsline {subsection}{\numberline {3.4}\texttt {tex} ファイルの書き方}{13}{subsection.3.4}% 
+\contentsline {subsection}{\numberline {3.5}コンパイルの方法}{13}{subsection.3.5}% 
+\contentsline {subsection}{\numberline {3.6}ファイルの文字コードについて}{14}{subsection.3.6}% 
+\contentsline {subsection}{\numberline {3.7}ユニコード文字の利用について}{14}{subsection.3.7}% 
+\contentsline {section}{\numberline {4}カスタマイズ}{14}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}関数についての注}{15}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}カスタマイズ例}{15}{subsection.4.2}% 
+\contentsline {subsubsection}{\numberline {4.2.1}author, editor 間の区切を ``and'' から ``\&'' に変更する}{15}{subsubsection.4.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.2}author を small caps 体にする}{16}{subsubsection.4.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.3}volume と number の書式の変更}{16}{subsubsection.4.2.3}% 
+\contentsline {subsubsection}{\numberline {4.2.4}著者名の省略方法を変更する}{17}{subsubsection.4.2.4}% 
+\contentsline {subsubsection}{\numberline {4.2.5}author（editor）名における「姓」，「名」の順序を変更する}{18}{subsubsection.4.2.5}% 
+\contentsline {subsubsection}{\numberline {4.2.6}first name を頭文字のみにする}{18}{subsubsection.4.2.6}% 
+\contentsline {subsubsection}{\numberline {4.2.7}title 内の先頭文字以外を小文字に変換する}{19}{subsubsection.4.2.7}% 
+\contentsline {subsubsection}{\numberline {4.2.8}参考文献の文献の前に番号を付ける}{19}{subsubsection.4.2.8}% 
+\contentsline {subsubsection}{\numberline {4.2.9}年によるソートを逆にする（新しい文献を上にする）}{19}{subsubsection.4.2.9}% 
+\contentsline {subsubsection}{\numberline {4.2.10}日本語 author（editor）の姓名の間に空白（文字列）を入れる}{20}{subsubsection.4.2.10}% 
+\contentsline {subsubsection}{\numberline {4.2.11}年の表示される位置を後ろにもってくる}{20}{subsubsection.4.2.11}% 
+\contentsline {subsubsection}{\numberline {4.2.12}日本語文献に含まれる数字（年，月，号，巻等）を漢数字に変換する}{20}{subsubsection.4.2.12}% 
+\contentsline {subsubsection}{\numberline {4.2.13}区切り文字（ピリオド，カンマ） について}{21}{subsubsection.4.2.13}% 
+\contentsline {subsubsection}{\numberline {4.2.14}著者数が非常に多いケース}{21}{subsubsection.4.2.14}% 
+\contentsline {subsection}{\numberline {4.3}特殊なフィールド}{22}{subsection.4.3}% 
+\contentsline {subsubsection}{\numberline {4.3.1}urlとaccessフィールド}{23}{subsubsection.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.3.2}DOIフィールド}{23}{subsubsection.4.3.2}% 
+\contentsline {section}{\numberline {5}文献ソートのルールについて}{24}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}基本的なルール}{24}{subsection.5.1}% 
+\contentsline {subsection}{\numberline {5.2}引用順でそのまま参考文献を並べる}{25}{subsection.5.2}% 
+\contentsline {subsection}{\numberline {5.3}文献のタイプによって分けて並べる}{25}{subsection.5.3}% 
+\contentsline {subsection}{\numberline {5.4}\texttt {year}（年）に従って並べる}{26}{subsection.5.4}% 
+\contentsline {subsection}{\numberline {5.5}\texttt {absorder} フィールドを利用した並べ替え}{26}{subsection.5.5}% 
+\contentsline {subsubsection}{\numberline {5.5.1}\texttt {absorder} フィールドを無視したいとき}{26}{subsubsection.5.5.1}% 
+\contentsline {subsection}{\numberline {5.6}\texttt {order} フィールドを利用した並べ替え}{27}{subsection.5.6}% 
+\contentsline {subsubsection}{\numberline {5.6.1}利用例}{27}{subsubsection.5.6.1}% 
+\contentsline {subsection}{\numberline {5.7}\texttt {month} フィールドを利用した並べ替え}{27}{subsection.5.7}% 
+\contentsline {section}{\numberline {6}不具合}{28}{section.6}% 
+\contentsline {section}{\numberline {7}その他}{28}{section.7}% 
+\contentsline {section}{参考文献}{28}{section.7}% 

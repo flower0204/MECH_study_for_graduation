@@ -1,0 +1,461 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  This bbl file is created by jecon.bst ver.6.0
+%  The latest jecon.bst is available at
+%  <http://shirotakeda.org/ja/tex-ja/jecon-ja.html>
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\makeatletter\@ifundefined{ifNAT@openbib}{\@latex@error{Package 'natbib' is not
+  loaded! Please load Package 'natbib' in your preamble.\MessageBreak
+  Additionally, if you use url field in your bib record entry, please also load
+  Package 'hyperref' or 'pxjahyper', 'url' package.}\@ehc}{}\relax\makeatother
+\begin{thebibliography}{xxx}
+
+
+\harvarditem[Attwood]{Attwood}{2006}{Attwood06:SexedUp_art}
+Attwood, F., Sexed Up: Theorizing the Sexualization of Culture, Sexualities,
+  Vol. 9 (2006) , No. 1, pp. 77--94, February.
+
+\harvarditem[Attwood]{Attwood}{2009}{Attwood09:Mainstreaming}
+Attwood, F.,  ed. Mainstreaming Sex: the Sexualization of Western Culture:
+  I.~B. Tauris (2009) .
+
+\harvarditem[Attwood]{Attwood}{2010}{attwood2010porn}
+Attwood, F.,  ed. Porn.com: Making Sense of Online Pornography: Peter Lang
+  (2010) .
+
+\harvarditem[Babiker and Eckaus]{Babiker and
+  Eckaus}{2007}{Biker-2007-unemployment}
+Babiker, M.~H. and R.~S. Eckaus, Unemployment Effects of Climate Policy,
+  Environmental Science and Policy, Vol. 10 (2007) , No. 7-8, pp. 600--609,
+  DOI: \href{http://dx.doi.org/10.1016/j.envsci.2007.05.002}{\urlstyle{rm}
+  \nolinkurl{10.1016/j.envsci.2007.05.002}}.
+
+\harvarditem[Babiker and Rutherford]{Babiker and
+  Rutherford}{2005}{BabikerRutherford-2005-EconomicEffectsof}
+Babiker, M.~H. and T.~F. Rutherford, The Economic Effects of Border Measures in
+  Subglobal Climate Agreements, Energy Journal, Vol. 26 (2005) , No. 4, pp.
+  99--126.
+
+\harvarditem[Babiker et~al.]{Babiker, Reilly and
+  Jacoby}{1999}{Babiker-1999-KyotoProtocoland}
+Babiker, M.~H., J.~M. Reilly, and H.~D. Jacoby, The {Kyoto} Protocol and
+  Developing Countries, October (1999) , MIT Joint Program on the Science and
+  Policy of Global Change (Report No.56).
+
+\harvarditem[Babiker et~al.]{Babiker, Reilly and Jacoby}{2000}{Babiker2000525}
+Babiker, M.~H., J.~M. Reilly, and H.~D. Jacoby, The {Kyoto} Protocol and
+  Developing Countries, Energy Policy, Vol. 28 (2000) , No. 8, pp. 525--536,
+  DOI: \href{http://dx.doi.org/10.1016/S0301-4215(00)00033-1}{\urlstyle{rm}
+  \nolinkurl{10.1016/S0301-4215(00)00033-1}}.
+
+\harvarditem[Balistreri and Rutherford]{Balistreri and
+  Rutherford}{2013}{balistreri20131513}
+Balistreri, E.~J. and T.~F. Rutherford, Computing General Equilibrium Theories
+  of Monopolistic Competition and Heterogeneous Firms, in Dixon, P.~B. and
+  D.~W. Jorgenson eds.  , Handbook of Computable General Equilibrium Modeling
+  SET, Vols. 1A and 1B, Vol. 1, Chap.~23, pp. 1513 -- 1570, Amsterdam: Elsevier
+  (2013) , DOI:
+  \href{http://dx.doi.org/10.1016/B978-0-444-59568-3.00023-7}{\urlstyle{rm}
+  \nolinkurl{10.1016/B978-0-444-59568-3.00023-7}}.
+
+\harvarditem[Brezis et~al.]{Brezis, Krugman and
+  Tsiddon}{1993}{brezis93:_leapf_inter_compet}
+Brezis, E.~S., P.~R. Krugman, and D.~Tsiddon, Leapfrogging in International
+  Competition: A Theory of Cycles in National Technological Leadership,
+  American Economic Review, Vol. 83 (1993) , No. 5, pp. 1211--1219, December,
+  available from \url{<http://www.jstor.org/stable/2117557}>.
+
+\harvarditem[Brooke et~al.]{Brooke, Kendrick, Meeraus and
+  Raman}{2003}{brooke03:_gams}
+Brooke, A., D.~Kendrick, A.~Meeraus, and R.~Raman, {GAMS}: A User's Guide, GAMS
+  Development Corporation (2003) .
+
+\harvarditem[Chang]{Chang}{2013}{chang-2013}
+Chang, W., Rグラフィックスクックブック―ggplot2によるグラフ作成のレシピ
+  集，石井弓美子，河内崇，瀬戸山雅人，古畠敦訳，オライリージャパン (2013) ．
+
+\harvarditem[{De Gorter} and Swinnen]{{De Gorter} and
+  Swinnen}{2002}{DeGorter2002}
+{De Gorter}, H. and J.~Swinnen, Political Economy of Agricultural Policy, in
+  Gardner, B. and G.~Rausser eds.  , Handbook of Agricultural Economics, Vol.
+  2, Chap.~36, pp. 1893--1943: Elsevier Science B.V. (2002) , DOI:
+  \href{http://dx.doi.org/10.1016/S1574-0072(02)10023-5}{\urlstyle{rm}
+  \nolinkurl{10.1016/S1574-0072(02)10023-5}}.
+
+\harvarditem[Fujita et~al.]{Fujita, Krugman and
+  Venables}{1999}{fujita99jp:_spatial_econom}
+Fujita, M., P.~R. Krugman, and A.~J. Venables, The Spatial Economy, Cambridge,
+  MA: MIT Press (1999) , 紹介ページ:
+  \url{https://mitpress.mit.edu/books/spatial-economy},
+  （小出博之訳，空間経済学，東洋経済新報社，2000年，和訳紹介ページ:
+  \url{https://str.toyokeizai.net/books/9784492312858/}）.
+
+\harvarditem[服部，石田]{服部，石田}{2000}{Hattori00}
+服部保，石田弘明,
+  宮崎県中部における照葉樹林の樹林面積と種多様性，種組成の関係，
+  日本生態学会誌, Vol. 50 (2000) , p.221--234．
+
+\harvarditem[服部，南山]{服部，南山}{2001}{Hattori01}
+服部保，南山典子, 九州以北の照葉樹林フロラ， 人と自然, Vol. 12 (2001) ,
+  p.91--104．
+
+\harvarditem[服部他]{服部，石田，小舘，南山}{2002}{Hattori02}
+服部保，石田弘明，小舘誓治，南山典子,
+  照葉樹林フロラの特徴と絶滅のおそれのある照葉樹林構成種の現状，
+  ランドスケープ研究, Vol. 65 (2002) , p.609--614．
+
+\harvarditem[Helpman and Razin]{Helpman and
+  Razin}{1991}{helpman91:_inter_trade_trade_polic}
+Helpman, E. and A.~Razin,  eds. International Trade and Trade Policy,
+  Cambridge, MA: MIT Press (1991) .
+
+\harvarditem[Imbens and Wager]{Imbens and Wager}{2019}{imbens2019Optimized}
+Imbens, G. and S.~Wager, Optimized {{Regression Discontinuity Designs}}, Review
+  of Economics and Statistics, Vol. 101 (2019) , No. 2, pp. 264--278, May, DOI:
+  \href{http://dx.doi.org/10.1162/rest_a_00793}{\urlstyle{rm}
+  \nolinkurl{10.1162/rest_a_00793}}.
+
+\harvarditem[Ishikawa]{Ishikawa}{1994}{ishikawa94:_revis_stolp_samuel_rybcz_theor_produc_exter}
+Ishikawa, J., Revisiting the {Stolper}-{Samuelson} and the {Rybczynski}
+  Theorems with Production Externalitities, Canadian Journal of Economics, Vol.
+  27 (1994) , No. 1, pp. 101--111, available from
+  \url{<http://www.jstor.org/stable/135804}>.
+
+\harvarditem[Ishikawa and Kiyono]{Ishikawa and
+  Kiyono}{2003}{ishikawa03:_green_gas_emiss_contr_open_econom}
+Ishikawa, J. and K.~Kiyono, Greenhouse-Gas Emission Controls in an Open
+  Economy, November (2003) , {COE-RES} Discussion Paper Series, Center of
+  Excellence Project, Graduate School of Economics and Institute of Economics
+  Research, Hitotsubashi University.
+
+\harvarditem[Jones and Kenen]{Jones and
+  Kenen}{1984}{jones84:_handb_inter_econom}
+Jones, R.~W. and P.~B. Kenen,  eds. Handbook of International Economics, Vol.
+  1, Amsterdam: Elsevier (1984) .
+
+\harvarditem[Jones and Kenen]{Jones and
+  Kenen}{1985}{jones85:_handb_inter_econom}
+Jones, R.~W. and P.~B. Kenen,  eds. Handbook of International Economics, Vol.
+  2, Amsterdam: Elsevier (1985) .
+
+\harvarditem[Jones et~al.]{Jones, Grossman, Kenen and
+  Rogoff}{1997}{jones97:_handb_inter_econom}
+Jones, R.~W., G.~M. Grossman, P.~B. Kenen, and K.~Rogoff,  eds. Handbook of
+  International Economics, Vol. 3, Amsterdam: Elsevier (1997) .
+
+\harvarditem[片山]{片山}{2001}{katayama2001}
+片山恭一, 世界の中心で愛を叫ぶ，小学館 (2001) ．
+
+\harvarditem[Krugman]{Krugman}{1991a}{krugman91:_geogr_trade}
+Krugman, P.~R., Geography and Trade, Cambridge, MA: MIT Press (1991a) .
+
+\harvarditem[Krugman]{Krugman}{1991b}{krugman91:_is_bilat_bad}
+Krugman, P.~R., Is Bilateralism Bad? in Helpman, E. and A.~Razin eds.  ,
+  International Trade and Trade Policy, pp. 9--23, Cambridge, MA: MIT Press
+  (1991b) .
+
+\harvarditem[Le~Qu\'er\'e et~al.]{Le~Qu\'er\'e et~al.}{2018}{essd-10-405-2018}
+Le~Qu\'er\'e, C., R.~M. Andrew et~al., Global Carbon Budget 2017, Earth System
+  Science Data, Vol. 10 (2018) , No. 1, pp. 405--448, DOI:
+  \href{http://dx.doi.org/10.5194/essd-10-405-2018}{\urlstyle{rm}
+  \nolinkurl{10.5194/essd-10-405-2018}}.
+
+\harvarditem[Li et~al.]{Li, Zhang, Peter, Chitta, Su, Song, Xia and
+  Hou}{2018}{Li_2018}
+Li, L., J.~Zhang, H.~Peter, L.~P. Chitta, J.~Su, H.~Song, C.~Xia, and Y.~Hou,
+  Quasi-periodic Fast Propagating Magnetoacoustic Waves during the Magnetic
+  Reconnection Between Solar Coronal Loops, The Astrophysical Journal, Vol. 868
+  (2018) , No. 2, p. L33, November, DOI:
+  \href{http://dx.doi.org/10.3847/2041-8213/aaf167}{\urlstyle{rm}
+  \nolinkurl{10.3847/2041-8213/aaf167}}.
+
+\harvarditem[Lucas]{Lucas}{1976}{lucas76:_econom_polic_evaluat}
+Lucas, R.~E., Jr., Econometric Policy Evaluation: A Critique, in , The Phillips
+  Curve and Labor Markets, Vol. 1 of Carnegie Rochester Conference Series on
+  Public Policy, pp. 19--46, Amsterdam: North-Holland (1976) .
+
+\harvarditem[Meehl et~al.]{Meehl et~al.}{2009}{doi:10.1175/2009BAMS2778.1}
+Meehl, G.~A., L.~Goddard et~al., Decadal Prediction, Bulletin of the American
+  Meteorological Society, Vol. 90 (2009) , No. 10, pp. 1467--1486, DOI:
+  \href{http://dx.doi.org/10.1175/2009BAMS2778.1}{\urlstyle{rm}
+  \nolinkurl{10.1175/2009BAMS2778.1}}.
+
+\harvarditem[Milne-Thomson]{Milne-Thomson}{1968}{milne-thomson68:_theor_hydrod}
+Milne-Thomson, L.~M., Theoretical Hydrodynamics, 5th edition, p. 480, London:
+  Ma{C}millan Press (1968) .
+
+\harvarditem[西村]{西村}{1990}{nishimura90:_micr_econ}
+西村和雄, ミクロ経済学，東洋経済新報社 (1990) ．
+
+\harvarditem[Parry]{Parry}{1997}{Parry1997}
+Parry, I. W.~H., {Environmental Taxes and Quotas in the Presence of Distorting
+  Taxes in Factor Markets}, Resource and Energy Economics, pp. 5--6, DOI:
+  \href{http://dx.doi.org/10.2139/ssrn.293599}{\urlstyle{rm}
+  \nolinkurl{10.2139/ssrn.293599}}.
+
+\harvarditem[Pearl]{Pearl}{2009}{pearl2009Causality}
+Pearl, J., Causality: {Models}, {Reasoning}, and {Inference}, Cambridge:
+  Cambridge University Press, 2nd edition (2009) , DOI:
+  \href{http://dx.doi.org/10.1017/CBO9780511803161}{\urlstyle{rm}
+  \nolinkurl{10.1017/CBO9780511803161}}.
+
+\harvarditem[Peri]{Peri}{2007}{Peri2007}
+Peri, G., {Immigrants' Complementarities and Native Wages: Evidence from
+  California},Technical report, National Bureau of Economic Research,
+  Cambridge, MA (2007) , DOI:
+  \href{http://dx.doi.org/10.3386/w12956}{\urlstyle{rm}
+  \nolinkurl{10.3386/w12956}}.
+
+\harvarditem[Romer]{Romer}{2019}{romer19jp:_advan_macroecon}
+Romer, D., Advanced Macroeconomics, New York, NY: McGraw Hill, 5th edition
+  (2019) ,
+  （堀雅博，岩成博夫，南條隆訳，上級マクロ経済学，2010年，原著第3版訳）.
+
+\harvarditem[Rutherford and Paltsev]{Rutherford and
+  Paltsev}{2000}{rutherford00:_gtapin_gtap_eg}
+Rutherford, T.~F. and S.~V. Paltsev, {GTAPinGAMS} and {GTAP-EG}: Global
+  Datasets for Economic Research and Illustrative Models, September (2000) ,
+  available from \url{<http://www.mpsge.org/gtap5/index.html}>, (accessed on
+  29th June, 2013), Working Paper, University of Colorad, Department of
+  Economics.
+
+\harvarditem[Ryza et~al.]{Ryza, Laserson, Owen and
+  Wills}{2015}{Ryza15:_advan_analy_spark_patter_learn_data_scale}
+Ryza, S., U.~Laserson, S.~Owen, and J.~Wills, Advanced Analytics with Spark
+  Patterns for Learning from Data at Scale: O'reilly \& Associates Inc (2015) .
+
+\harvarditem[Ryza et~al.]{Ryza, Laserson, Owen and Wills}{2016}{Ryza2016}
+Ryza, S., U.~Laserson, S.~Owen, and J.~Wills, Sparkによる実践データ解析 ―
+  大規模データのための機械学習事例
+  集，石川有監訳，Sky株式会社・玉川竜司訳，オライリージャパン (2016) ．
+
+\harvarditem[Takeda]{Takeda}{2005}{takeda05:_econom_analy_envir_regul}
+Takeda, S., An Economic Analysis of Environmental Regulations, Ph.D.
+  dissertation, Hitotsubashi University (2005) .
+
+\harvarditem[Takeda et~al.]{Takeda, Tetsuya and Arimura}{2012}{Takeda2012a}
+Takeda, S., H.~Tetsuya, and T.~H. Arimura, A CGE Analysis of Border Adjustments
+  under the Cap-and-Trade System: A Case Study of the Japanese Economy, Climate
+  Change Economics, Vol. 3 (2012) , No. 1, DOI:
+  \href{http://dx.doi.org/10.1142/S2010007812500030}{\urlstyle{rm}
+  \nolinkurl{10.1142/S2010007812500030}}.
+
+\harvarditem[Takeda et~al.]{Takeda, Arimura, Tamechika, Fischer and
+  Fox}{2014}{Takeda2014a}
+Takeda, S., T.~H. Arimura, H.~Tamechika, C.~Fischer, and A.~K. Fox,
+  Output-based allocation of emissions permits for mitigating the leakage and
+  competitiveness issues for the Japanese economy, Environmental Economics and
+  Policy Studies, Vol. 16 (2014) , No. 1, pp. 89--110, Jan, DOI:
+  \href{http://dx.doi.org/10.1007/s10018-013-0072-8}{\urlstyle{rm}
+  \nolinkurl{10.1007/s10018-013-0072-8}}.
+
+\harvarditem[Takeda et~al.]{Takeda, Arimura and Sugino}{2015}{takeda2015a}
+Takeda, S., T.~H. Arimura, and M.~Sugino, Labor Market Distortions and
+  Welfare-Decreasing International Emissions Trading, (2015) , available from
+  \url{<http://www.waseda.jp/fpse/winpec/assets/uploads/2015/06/No.E1422Takeda_Arimura_Sugino.pdf}>,
+  WINPEC Working Paper Series No.E1422, March 2015.
+
+\harvarditem[Takeda et~al.]{Takeda, Arimura and Sugino}{2019}{Takeda2019a}
+Takeda, S., T.~H. Arimura, and M.~Sugino, Labor Market Distortions and
+  Welfare-Decreasing International Emissions Trading, Environmental and
+  Resource Economics, Vol. 74 (2019) , No. 1, pp. 271--293, January, DOI:
+  \href{http://dx.doi.org/10.1007/s10640-018-00317-4}{\urlstyle{rm}
+  \nolinkurl{10.1007/s10640-018-00317-4}}.
+
+\harvarditem[{ThoughtWorks Inc.}]{{ThoughtWorks
+  Inc.}}{2008}{ThoughtWorksinc.08}
+{ThoughtWorks Inc.}, ThoughtWorksアンソロジー ―
+  アジャイルとオブジェクト指向による
+  ソフトウェアイノベーション，オブジェクトの広場編集部株式会社オージス総研訳，オライリージャパン
+  (2008) ．
+
+\harvarditem[Wang et~al.]{Wang, Blomquist and
+  Spencer}{1989}{wang89:_model_therm_hydrod_aspec_molten}
+Wang, S.~K., C.~A. Blomquist, and B.~W. Spencer, Modeling of Thermal and
+  Hydrodynamic Aspects of Molten Jet/Water Interactions, in , ANS Proc. 1989
+  National Heat Transfer Conference, Vol. 4, pp. 225--232, Philadelphia,
+  September~6 (1989) .
+
+\harvarditem[Wong]{Wong}{1995}{wong95:_inter_trade_goods_factor_mobil_}
+Wong, K., International Trade in Goods and Factor Mobility, Chap.~2, pp.
+  23--84, Cambridge, MA: MIT Press (1995) .
+
+\harvarditem[Yamasue et~al.]{Yamasue, Nakajima, Daigo, Hashimoto, Okumura and
+  Ishihara}{2007}{2007yamasue482353}
+Yamasue, E., K.~Nakajima, I.~Daigo, S.~Hashimoto, H.~Okumura, and K.~N.
+  Ishihara, Evaluation of the Potential Amounts of Dissipated Rare Metals from
+  WEEE in Japan, Materials transactions, Vol. 48 (2007) , No. 9, pp.
+  2353--2357, available from \url{<http://ci.nii.ac.jp/naid/10019853407/}>.
+
+\harvarditem[Yamasue et~al.]{Yamasue, Minamino, Daigo, Okumura and
+  Ishihara}{2009}{2009yamasue502165}
+Yamasue, E., R.~Minamino, I.~Daigo, H.~Okumura, and K.~N. Ishihara, Evaluation
+  of total materials requirement for the recycling of elements and materials
+  (urban ore TMR) from end-of-life electric home appliances, Materials
+  Transactions, Vol. 50 (2009) , No. 9, pp. 2165--2172, available from
+  \url{<http://ci.nii.ac.jp/naid/40016713752/}>.
+
+\harvarditem[Yamazaki and Takeda]{Yamazaki and Takeda}{2013}{yamazaki13:_japan}
+Yamazaki, M. and S.~Takeda, An assessment of nuclear power shutdown in Japan
+  using the computable general equilibrium model, Journal of Integrated
+  Disaster Risk Management, Vol. 3 (2013) , No. 1, DOI:
+  \href{http://dx.doi.org/10.5595/idrim.2013.0055}{\urlstyle{rm}
+  \nolinkurl{10.5595/idrim.2013.0055}}.
+
+\harvarditem[Zhang et~al.]{Zhang, Du and Wang}{2016}{zhang2016Deep}
+Zhang, W., T.~Du, and J.~Wang, Deep {{Learning}} over {{Multi}}-Field
+  {{Categorical Data}}, in Ferro, N., F.~Crestani, M.-F. Moens, J.~Mothe,
+  F.~Silvestri, G.~M. Di~Nunzio, C.~Hauff, and G.~Silvello eds.  , Proceedings
+  of 38th {{European Conference}} on {{IR Research}}, Vol. 9626, pp. 45--57,
+  {Paduva, Italy}: {Springer International Publishing}, March (2016) , DOI:
+  \href{http://dx.doi.org/10.1007/978-3-319-30671-1_4}{\urlstyle{rm}
+  \nolinkurl{10.1007/978-3-319-30671-1_4}}.
+
+\harvarditem[有村，武田]{有村，武田}{2012}{arimura-takeda2012}
+有村俊秀，武田史郎,
+  （編）排出量取引と省エネルギーの経済分析：日本企業と家計の現状，日本評論社
+  (2012) ．
+
+\harvarditem[有村，杉野]{有村，杉野}{2015}{40020418914}
+有村俊秀，杉野誠, 温室効果ガス排出削減の方法 : 経済的手法の役割（特集
+  気候変動：未来選択に向けて）， 環境情報科学, Vol. 44 (2015) , No. 1,
+  p.36--43，available from \url{<http://ci.nii.ac.jp/naid/40020418914/}>．
+
+\harvarditem[有村他]{有村，杉野，武田}{2011}{40018847518}
+有村俊秀，杉野誠，武田史郎,
+  国内排出量取引の国際リンクによる経済的影響に関する研究 -- 応用一
+  般均衡分析によるアプローチ（特集 政策大競争時代の環境経済研究）， 環境研究,
+  No. 161, p.95--102，5月，available from
+  \url{<http://ci.nii.ac.jp/naid/40018847518/}>．
+
+\harvarditem[有村他]{有村，片山，松本}{2017}{arimura-katayama-matsumoto-2017jp}
+有村俊秀，片山東，松本茂, （編）環境経済学のフロンティア，日本評論社 (2017) ．
+
+\harvarditem[石川]{石川}{2002}{isikawa02jp:_env_trade}
+石川城太, 環境政策と国際貿易，池間誠，大山道広（編）, 国際日本経済論，第7章,
+  p.114--129，文眞堂 (2002) ．
+
+\harvarditem[伊藤，大山]{伊藤，大山}{1985}{ito85:_inte_trad}
+伊藤元重，大山道広, 国際貿易，モダン・エコノミクス 14，岩波書店 (1985) ．
+
+\harvarditem[今井他]{今井，宇沢，小宮，根岸，村上}{1971}{imai71:_micr_1}
+今井賢一，宇沢弘文，小宮隆太郎，根岸隆，村上泰亮, 価格理論 I，岩波書店 (1971)
+  ．
+
+\harvarditem[今井他]{今井，宇沢，小宮，根岸，村上}{1972}{imai72:_micr_2}
+今井賢一，宇沢弘文，小宮隆太郎，根岸隆，村上泰亮, 価格理論 II，岩波書店 (1972)
+  ．
+
+\harvarditem[岩本]{岩本}{1991}{iwamoto91jp:haito-keika}
+岩本康志, 配当軽課制度廃止の経済的効果 --- 89 年法人税改革の分析 ---，
+  経済研究, Vol. 42 (1991) , No. 2, p.127--138，4月．
+
+\harvarditem[宇沢]{宇沢}{1962}{uzawa-phd-62}
+宇沢弘文, レオン・ワルラスの一般均衡理論に関する諸研究，博士論文，東北大学
+  (1962) ．
+
+\harvarditem[大山]{大山}{1999}{oyama99:_mark_stru}
+大山道広,
+  市場構造・経済厚生・国際貿易，岡田章，神谷和也，柴田弘文，伴金美（編）,
+  現代経済学の潮流 1999, p.3--34，東洋経済新報社 (1999) ．
+
+\harvarditem[清野]{清野}{1993}{kiyono93:_regu_comp_1}
+清野一治, 規制と競争の経済学, p.27--31，東京大学出版会，東京 (1993) ．
+
+\harvarditem[黒田他]{黒田，新保，野村，小林}{1997}{kuroda97jp:keo}
+黒田昌裕，新保一成，野村浩二，小林信行, KEOデータベース ---
+  産出および資本・労働投入の測定 ---，Keio Economic Observatory Monograph
+  Series, No. 8，慶應義塾大学産業研究所 (1997) ．
+
+\harvarditem[総務省]{総務省}{2004}{somusho04jp:2000io-kaisetsu}
+総務省, （編）平成12年 (2000年) 産業連関表 --- 総合解説編 ---，財団法人
+  全国統計協会連合会 (2004) ．
+
+\harvarditem[武田]{武田}{2007}{takeda07jp:CGE_for_rieti}
+武田史郎, 貿易政策を対象とした応用一般均衡分析， (2007) ，available from
+  \url{<http://www.rieti.go.jp/jp/publications/summary/07030019.html}>，RIETI
+  Discussion Paper Series 07-J -010．
+
+\harvarditem[武田]{武田}{2012}{takeda2012_cge}
+武田史郎,
+  応用一般均衡モデルによる地球温暖化対策の分析：有用性と問題点，有村俊秀，蓬田守弘，川瀬剛志（編）,
+  地球温暖化対策と国際貿易：排出量取引と国境調整措置をめぐる経済学的・法学的分析，第1章,
+  p.15--36，東京大学出版会 (2012) ．
+
+\harvarditem[武田]{武田}{2013}{takeda2013jecon}
+武田史郎, jecon.bst：経済学用BibTeXスタイルファイル (2013) ，available from
+  \url{<http://shirotakeda.org/ja/tex-ja/jecon-ja.html}>（参照日:
+  2013年7月6日）．
+
+\harvarditem[武田]{武田}{2017}{takeda2017300208}
+武田史郎, 排出量取引と自主的行動によるCO2削減の効果
+  －応用一般均衡モデルによる分析－， 環境科学会誌, Vol. 30 (2017) , No. 2,
+  p.141--149，DOI: \href{http://dx.doi.org/10.11353/sesj.30.141}{\urlstyle{rm}
+  \nolinkurl{10.11353/sesj.30.141}}．
+
+\harvarditem[武田他]{武田，川崎，落合，伴}{2010}{40017004376}
+武田史郎，川崎泰史，落合勝昭，伴金美,
+  日本経済研究センターCGEモデルによるCO2削減中期目標の分析，
+  環境経済・政策研究, Vol. 3 (2010) , No. 1, p.31--42，1月，available from
+  \url{<http://ci.nii.ac.jp/naid/40017004376/}>．
+
+\harvarditem[武田他]{武田，山崎，川崎，吉岡}{2016}{takeda-gtap-2016ja}
+武田史郎，山崎雅人，川崎泰史，吉岡真史,
+  {GTAP9}と{GTAP-Power}データベースの特徴， (2016) ，available from
+  \url{<http://www.esri.go.jp/jp/archive/e_rnote/e_rnote030/e_rnote026.pdf}>，ESRI
+  Research Note No.26．
+
+\harvarditem[内閣府]{内閣府}{2011}{naikakufu_2011}
+内閣府, 経済成長と財政健全化に関する研究報告書， (2011)
+  ，第3回経済社会構造に関する有識者会議（10月17日）資料２．
+
+\harvarditem[ハント，デビッド]{ハント，デビッド}{2000}{a.___2000}
+ハント，A.，T.~デビッド,
+  達人プログラマー―システム開発の職人から名匠への道，村上雅章訳，ピアソンエデュケーション
+  (2000) ．
+
+\harvarditem[バロー]{バロー}{1997}{barro97jp}
+バロー，R.~J., 経済学の正しい使用法
+  ―政府は経済に手を出すな―，仁平和夫訳，東洋経済新報社 (1997) ．
+
+\harvarditem[細田，山本]{細田，山本}{2017}{hosoda2017}
+細田衛士，山本雅資, 循環型社会の構築に向けて， 環境経済・政策研究, Vol. 10
+  (2017) , No. 1, p.1--12，DOI:
+  \href{http://dx.doi.org/10.14927/reeps.10.1\_1}{\urlstyle{rm}
+  \nolinkurl{10.14927/reeps.10.1\_1}}．
+
+\harvarditem[Boswell and Foucher]{Boswell and Foucher}{2012}{Boswell-2012}
+Boswell, D. and T.~Foucher, リーダブルコード
+  ―より良いコードを書くためのシンプルで実践的 なテクニック (Theory in
+  practice)，角征典訳，オライリージャパン (2012) ．
+
+\harvarditem[マークセン他]{マークセン，ケンプファー，メルヴィン，マスカス}{1999}{markusen99jp:trade_vol_1}
+マークセン，J.~R.，W.~H. ケンプファー，J.~R. メルヴィン，K.~E. マスカス,
+  国際貿易―理論と実証〈上〉，松村敦子訳，多賀出版 (1999) ．
+
+\harvarditem[Matloff]{Matloff}{2012}{matloff__2012}
+Matloff, N., アート・オブ・ {R}
+  プログラミング，大橋真也監訳，木下哲也訳，オライリージャパン，東京 (2012) ．
+
+\harvarditem[宮沢]{宮沢}{2002}{miyazawa02:_io_intr}
+宮沢健一, （編）産業連関分析入門〈新版〉，日本経済新聞社，7 edition (2002) ．
+
+\harvarditem[Takeda]{Takeda}{2007}{takeda06:_cge_analy_welfar_effec_trade}
+Takeda, S., The Double Dividend from Carbon Regulations in {Japan}, Journal of
+  the Japanese and International Economies, Vol. 21 (2007) , No. 3, pp.
+  336--364, September, DOI:
+  \href{http://dx.doi.org/10.1016/j.jjie.2006.01.002}{\urlstyle{rm}
+  \nolinkurl{10.1016/j.jjie.2006.01.002}}.
+
+\harvarditem[Takeda]{Takeda}{2010}{takeda10:_cge_analy_welfar_effec_trade}
+Takeda, S., A {CGE} Analysis of the Welfare Effects of Trade Liberalization
+  under Different Market Structures, International Review of Applied Economics,
+  Vol. 24 (2010) , No. 1, pp. 75--93, DOI:
+  \href{http://dx.doi.org/10.1080/02692170903424307}{\urlstyle{rm}
+  \nolinkurl{10.1080/02692170903424307}}.
+
+\end{thebibliography}
+
