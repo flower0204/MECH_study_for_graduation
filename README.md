@@ -13,8 +13,8 @@ This is a LaTeX format for senior study of mechanical engineering, Dpt. of Mecha
 %figureの相対パスを指定しておきます
 ```
 # 参考文献  
-**内容**：ref_ver2.bibに参考文献内容を記載してください．書き方はBibTeXとかでググればよし．  
-**注意**：著者名が日本人の場合，以下のようにyomiフィールドを付けましょう．（名前順に並び替えるが故です．）  
+**内容**：ref_ver2.bibに参考文献内容を記述してください．書き方はBibTeXとかでググればよし．  
+**注意1**：著者名が日本人の場合，以下のようにyomiフィールドを付けましょう．（名前順に並び替えるが故です．）  
 ```
 @article{白井大地:2013-09,
 author="白井, 大地 and 武田, 史郎 and 落合, 勝昭",
@@ -29,6 +29,16 @@ pages="12-25",
 yomi="Shirai, Daichi",
 URL="http://ci.nii.ac.jp/naid/40019823794/",
 DOI="",
+}
+```
+**注意2**：修士論文など，volume，number，pagesいずれもない論文を引用する時は以下のように記述してください．コメントは要らなければnoteを消してください．
+```
+@mthesis{master,
+author = {研究室の先輩},
+title = {先輩の修論},
+year = {2020},
+yomi = {kenkyusitu},
+note = {コメント}
 }
 ```
 **本文での引用の仕方**  
