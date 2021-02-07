@@ -1016,7 +1016,7 @@ FUNCTION {bst.access.post}
 % accessの前に付ける文字列 (日本語文献用)
 %
 FUNCTION {bst.access.pre.jp}
-{ "（参照日: " } % 
+{ "（参照日 " } % 
 
 % accessの後に付ける文字列 (日本語文献用)
 %

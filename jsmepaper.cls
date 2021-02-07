@@ -281,12 +281,12 @@
    {\protect\normalsize{.}\leavevmode\setbox\@tempboxa\hbox{#1}%
     \hspace*{1.2ex}\protect\@spsection{{\normalsize\special{pdf:literal direct q 0.3 w 2 Tr}#1\special{pdf:literal direct Q}}}}}
 \newcommand{\@ssection}[1]{\@startsection{section}{10}{\z@}%
-   %{0.0\Cvs \@plus.5\Cdp \@minus.2\Cdp}%
-   {0.0\Cvs \@minus.6\Cdp}
+   {0.0\Cvs \@plus.5\Cdp \@minus.2\Cdp}%
+   %{0.0\Cvs \@minus.6\Cdp}
    {.35\Cvs \@plus.3\Cdp}%
    {\reset@font\semilarge\center\bfseries}
    {\leavevmode\setbox\@tempboxa\hbox{#1}%
-    \hspace*{-2pt}\protect\@spsection{{\normalsize#1}}}}
+    \hspace*{-2pt}\protect\@spsection{{\normalsize\special{pdf:literal direct q 0.3 w 2 Tr}#1\special{pdf:literal direct Q}}}}}
 \newcommand{\@spsection}[1]{% %%%%% (少ない文字は等間隔空け) %%%%%
     \setbox\@tempboxa\hbox{\begin{tabular}{@{}c@{}}#1\end{tabular}}
     \ifdim\wd\@tempboxa>9zw#1\else

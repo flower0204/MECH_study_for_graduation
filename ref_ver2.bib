@@ -1,3 +1,6 @@
+%ジャーナル論文を参照するときは以下
+%urlやdoiもそのまま張り付けてもコンパイルは通ります．
+%現在の設定では，urlとdoiが両方記述されている場合は，doiのみを表示する設定にしています．変更したい場合はjecon-jsme.bstの「URL と DOI の表示方法」という項目を参照にしてください．
 @article{nin,
 author = {Moreira, Alberto and Prats-iraola, Pau and Younis, Marwan and Krieger, Gerhard and Hajnsek, Irena and Papathanassiou, Konstantinos P},
 file = {:F$\backslash$:/発表系/esa{\_}sar{\_}tutorial.pdf:pdf},
@@ -24,6 +27,7 @@ yomi="Shirai, Daichi",
 URL="http://ci.nii.ac.jp/naid/40019823794/",
 DOI="",
 }
+%本を参照するときは以下
 @book{matloff__2012,
 address = {東京},
 title = {アート・オブ・{R} プログラミング},
@@ -45,18 +49,23 @@ author = {大内, 和夫},
 year = {2015},
 yomi = {Oouchi, Kazuo}
 }
+%インターネットサイトを参照するときは以下
+%参照日はaccessフィールドに書きましょう
 @misc{jaxa,
 author = {ALOS解析プロジェクト EORC},
 title = {ALOS-2 / PALSAR-2サンプルプロダクト（校正済み）},
 publisher = {JAXA},
-note = {(参照日　2020年8月23日)},
+access = {2020年8月23日},
 year = {2020},
 URL = {https://www.eorc.jaxa.jp/ALOS-2/doc/sam_jindex.htm},
 yomi = {aloskaiseki}
 }
-@mthesis{Oomoto,
-author = {大本さん},
-title = {膜面なんちゃら},
+%研究室の先輩の修論などを参考にする場合は以下
+%コメントなどを付けたいときは，\note{コメント}という風にすると，反映できます．
+@mthesis{master,
+author = {研究室の先輩},
+title = {先輩の修論},
 year = {2020},
-yomi = {oomoto,oomoto}
+yomi = {kenkyusitu},
+note = {コメント}
 }
