@@ -200,7 +200,7 @@
 \newdimen\f@keemph
 \newcommand{\femph}[1]{%
 \f@keemph=0.04pt % 係数の初期化
-\setlength{\f@keemph}{\f@keemph*\real{\f@size}}%現在の文字サイズに比例するように係数を調整
+\setlength{\f@keemph}{\f@keemph*2*\real{\f@size}}%現在の文字サイズに比例するように係数を調整
 \special{pdf:literal direct q \begingroup\the\f@keemph\endgroup w 2 Tr}% 合成太字モードon
 \emph{#1}%
 \special{pdf:literal direct Q}% 太字モードoff 
@@ -287,14 +287,13 @@
    %{\reset@font\normalsize\center\bfseries}
    %{\protect\normalsize{.}\leavevmode\setbox\@tempboxa\hbox{#1}%
     %\hspace*{1.2ex}\protect\@spsection{{\normalsize#1}}}}
-    {\Cvs}%
+    {0.3\Cvs}%
    {.35\Cvs \@plus.3\Cdp}%
    {\reset@font\normalsize\center\bfseries}
    {\protect\normalsize{.}\leavevmode\setbox\@tempboxa\hbox{#1}%
     \hspace*{1.2ex}\protect\@spsection{{\normalsize\special{pdf:literal direct q 0.3 w 2 Tr}#1\special{pdf:literal direct Q}}}}}
-\newcommand{\@ssection}[1]{\@startsection{section}{10}{\z@}%
+\newcommand{\@ssection}[1]{\@startsection{section}{9}{\z@}%
    {0.0\Cvs \@plus.5\Cdp \@minus.2\Cdp}%
-   %{0.0\Cvs \@minus.6\Cdp}
    {.35\Cvs \@plus.3\Cdp}%
    {\reset@font\semilarge\center\bfseries}
    {\leavevmode\setbox\@tempboxa\hbox{#1}%
@@ -309,7 +308,7 @@
    %{.01\Cvs \@plus.3\Cdp}%
    %{\hspace*{0.1ex}\reset@font\normalsize\bfseries}%
    %{\protect\@ifstar{#1}{\hspace*{1.4ex} #1}}}
-   {\Cvs}%
+   {0.675\Cvs}%
    {.01\Cvs \@plus.3\Cdp}%
    {\hspace*{0.1ex}\reset@font\normalsize\bfseries}%
    {\protect\@ifstar{#1}{\hspace*{1.4ex} {\normalsize\special{pdf:literal direct q 0.3 w 2 Tr}#1\special{pdf:literal direct Q}}}}}
@@ -347,7 +346,7 @@
   {\if@restonecol\onecolumn\else\clearpage\fi}
 %
 \newenvironment{thebibliography}[1] {\bigskip\par
- \parindent=0pt\hfil\femph{\semilarge\bf\makebox[5zw][s]{{\normalsize\refname}}}
+ \parindent=0pt\hfil\femph{\semilarge\bf\makebox[5.5zw][s]{{\normalsize\refname}}}
    \vskip 2ex\par
    \list{}{%
 		\setlength{\baselineskip}{15pt}%
