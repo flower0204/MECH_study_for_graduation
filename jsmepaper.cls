@@ -31,7 +31,7 @@
 %\RequirePackage{pifont}     % Loads the Postscript symbol fonts
 \RequirePackage{amsmath}
 \RequirePackage{etoolbox}
-%\RequirePackage{ifthen}
+\RequirePackage{ifthen}
 \RequirePackage{calc}
 
 \newif\iflatexe\latexetrue
@@ -179,32 +179,32 @@
 
 
 %以下古い\femph設定
-%\newcommand{\femph}[1]{%
-%\ifthenelse{\lengthtest{\f@size pt = 5pt}}{\special{pdf:literal direct q 0.1 w 2 Tr}}{%
-%\ifthenelse{\lengthtest{\f@size pt = 7pt}}{\special{pdf:literal direct q 0.14 w 2 Tr}}{%
-%\ifthenelse{\lengthtest{\f@size pt = 8pt}}{\special{pdf:literal direct q 0.16 w 2 Tr}}{%
-%\ifthenelse{\lengthtest{\f@size pt = 9pt}}{\special{pdf:literal direct q 0.18 w 2 Tr}}{%
-%\ifthenelse{\lengthtest{\f@size pt = 10pt}}{\special{pdf:literal direct q 0.20 w 2 Tr}}{%
-%\ifthenelse{\lengthtest{\f@size pt = 12pt}}{\special{pdf:literal direct q 0.24 w 2 Tr}}{%
-%\ifthenelse{\lengthtest{\f@size pt = 14.4pt}}{\special{pdf:literal direct q 0.288 w 2 Tr}}{%
-%\ifthenelse{\lengthtest{\f@size pt = 17.28pt}}{\special{pdf:literal direct q 0.3456 w 2 Tr}}{%
-%\ifthenelse{\lengthtest{\f@size pt = 20.74pt}}{\special{pdf:literal direct q 0.4148 w 2 Tr}}{%
-%\ifthenelse{\lengthtest{\f@size pt = 24.88pt}}{\special{pdf:literal direct q 0.4976 w 2 Tr}}{%
-%\@latex@error{なにかがおかしいよ！}%
-%}}}}}}}}}}%
-%\emph{#1}%
-%\special{pdf:literal direct Q}%
-%}
+\newcommand{\femph}[1]{%
+\ifthenelse{\lengthtest{\f@size pt = 5pt}}{\special{pdf:literal direct q 0.2 w 2 Tr}}{%
+\ifthenelse{\lengthtest{\f@size pt = 7pt}}{\special{pdf:literal direct q 0.28 w 2 Tr}}{%
+\ifthenelse{\lengthtest{\f@size pt = 8pt}}{\special{pdf:literal direct q 0.32 w 2 Tr}}{%
+\ifthenelse{\lengthtest{\f@size pt = 9pt}}{\special{pdf:literal direct q 0.36 w 2 Tr}}{%
+\ifthenelse{\lengthtest{\f@size pt = 10pt}}{\special{pdf:literal direct q 0.40 w 2 Tr}}{%
+\ifthenelse{\lengthtest{\f@size pt = 12pt}}{\special{pdf:literal direct q 0.48 w 2 Tr}}{%
+\ifthenelse{\lengthtest{\f@size pt = 14.4pt}}{\special{pdf:literal direct q 0.576 w 2 Tr}}{%
+\ifthenelse{\lengthtest{\f@size pt = 17.28pt}}{\special{pdf:literal direct q 0.6912 w 2 Tr}}{%
+\ifthenelse{\lengthtest{\f@size pt = 20.74pt}}{\special{pdf:literal direct q 0.8296 w 2 Tr}}{%
+\ifthenelse{\lengthtest{\f@size pt = 24.88pt}}{\special{pdf:literal direct q 0.4976 w 2 Tr}}{%
+\@latex@error{なにかがおかしいよ！}%
+}}}}}}}}}}%
+\emph{#1}%
+\special{pdf:literal direct Q}%
+}
 
 %以下新しい\femph設定
-\newdimen\f@keemph
-\newcommand{\femph}[1]{%
-\f@keemph=0.04pt % 係数の初期化
-\setlength{\f@keemph}{\f@keemph*2*\real{\f@size}}%現在の文字サイズに比例するように係数を調整
-\special{pdf:literal direct q \begingroup\the\f@keemph\endgroup w 2 Tr}% 合成太字モードon
-\emph{#1}%
-\special{pdf:literal direct Q}% 太字モードoff 
-}
+%\newdimen\f@keemph
+%\newcommand{\femph}[1]{%
+%\f@keemph=0.04pt % 係数の初期化
+%\setlength{\f@keemph}{\f@keemph*2*\real{\f@size}}%現在の文字サイズに比例するように係数を調整
+%\special{pdf:literal direct q \begingroup\the\f@keemph\endgroup w 2 Tr}% 合成太字モードon
+%\emph{#1}%
+%\special{pdf:literal direct Q}% 太字モードoff 
+%}
 
 \setlength{\mathindent}{1zw}
 \renewcommand{\theequation}{\arabic{equation}}
