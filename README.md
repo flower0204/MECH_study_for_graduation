@@ -1,5 +1,6 @@
 # MECH_study_for_graduation
 This is a LaTeX format for senior study of mechanical engineering, Dpt. of Mechanical Engineering, Tokyo Tech.
+If you have some errors or questions, please contact me "kcblue1998@gmail.com". Feel free!
 # コンパイル関係  
 **環境**：utf-8  
 **実行**：platexでコンパイルしてください．  
