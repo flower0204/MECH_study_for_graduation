@@ -65,6 +65,6 @@ note = {コメント}
 # Overleaf  
 Overleafにてサンプル例を作りました．  
 プロジェクトをコピーして自分で編集してもらってもコンパイルができると思います．  
-原因を特定中ですが，subfile単位でのコンパイル時に画像が出てこないです．
-**Overleafとgithubのデータはバージョンが異なる場合があります．**最新版は必ずgithubのものです．
+原因を特定中ですが，subfile単位でのコンパイル時に画像が出てこないです．  
+**Overleafとgithubのデータはバージョンが異なる場合があります．** 最新版は必ずgithubのものです．
 <https://www.overleaf.com/read/ndzzvqdwbhsv>
