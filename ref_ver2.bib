@@ -1,6 +1,7 @@
 %ジャーナル論文を参照するときは以下
 %urlやdoiもそのまま張り付けてもコンパイルは通ります．
 %現在の設定では，urlとdoiが両方記述されている場合は，doiのみを表示する設定にしています．変更したい場合はjecon-jsme.bstの「URL と DOI の表示方法」という項目を参照にしてください．
+%著者が日本語の場合，yomiフィールドを付けてください．これは日本語著者でも英語著者でもアルファベット順に名前を並び替えて参考文献に表示しないといけないからです．
 @article{nin,
 author = {Moreira, Alberto and Prats-iraola, Pau and Younis, Marwan and Krieger, Gerhard and Hajnsek, Irena and Papathanassiou, Konstantinos P},
 file = {:F$\backslash$:/発表系/esa{\_}sar{\_}tutorial.pdf:pdf},
@@ -27,27 +28,38 @@ yomi="Shirai, Daichi",
 URL="http://ci.nii.ac.jp/naid/40019823794/",
 DOI="",
 }
-%本を参照するときは以下
-@book{matloff__2012,
-address = {東京},
-title = {アート・オブ・{R} プログラミング},
-isbn = {978-4-87311-579-5},
-language = {ja},
-publisher = {オライリージャパン},
-author = {Matloff, Norman},
-kanyaku = {大橋, 真也},
-translator = {木下, 哲也},
-volume="6",
-number="2",
-pages="12-25",
-year = {2012},
-yomi = {Matloff}
+@article{Round2017,
+author = {Round, Vanessa and Leinss, Silvan and Huss, Matthias and Haemmig, Christoph and Hajnsek, Irena},
+doi = {10.5194/tc-11-723-2017},
+issn = {19940424},
+journal = {Cryosphere},
+mendeley-groups = {glacier},
+number = {2},
+pages = {723},
+title = {{Surge dynamics and lake outbursts of Kyagar Glacier, Karakoram}},
+volume = {11},
+year = {2017}
 }
+
+%本を参照するときは以下
 @book{gosei,
 title = {リモートセンシングのための合成開口レーダの基礎　第二版},
 author = {大内, 和夫},
 year = {2015},
 yomi = {Oouchi, Kazuo}
+}
+@article{竹内芳美:2005,
+author="竹内,芳美",
+title="超精密マイクロ切削加工",
+journal="日本機械学会論文集C編",
+ISSN="1882-3742",
+year="2005",
+volume="71",
+number="701",
+pages="3",
+yomi="Takeuchi, Yoshimi",
+URL="http://ci.nii.ac.jp/naid/40019823794/",
+DOI="",
 }
 %インターネットサイトを参照するときは以下
 %参照日はaccessフィールドに書きましょう

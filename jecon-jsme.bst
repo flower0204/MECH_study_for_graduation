@@ -683,7 +683,7 @@ FUNCTION {bst.edition.post.jp}
 % volume の前に付ける文字列 (英語文献用)
 %
 FUNCTION {bst.volume.pre}
-{ ", Vol. " }	 % (default)
+{ ", Vol." }	 % (default)
 
 % volume の後に付ける文字列 (英語文献用)
 %
@@ -693,7 +693,7 @@ FUNCTION {bst.volume.post}
 % volume の前に付ける文字列 (日本語文献用)
 %
 FUNCTION {bst.volume.pre.jp}
-{ ", Vol. " }    % 
+{ ", Vol." }    % 
 
 % volume の後に付ける文字列 (日本語文献用)
 %
@@ -706,7 +706,7 @@ FUNCTION {bst.volume.post.jp}
 % number の前に付ける文字列 (英語文献用)
 %
 FUNCTION {bst.number.pre}
-{ ", No. " }	% (default)
+{ ", No." }	% (default)
 
 % number の後に付ける文字列 (英語文献用)
 %
@@ -716,7 +716,7 @@ FUNCTION {bst.number.post}
 % number の前に付ける文字列 (日本語文献用)
 %
 FUNCTION {bst.number.pre.jp}
-{ ", No. " }    % 
+{ ", No." }    % 
 
 % number の後に付ける文字列 (日本語文献用)
 %
@@ -737,12 +737,12 @@ FUNCTION {bst.in}
 % page の前に付ける文字列 (複数ページ) (英語文献用)
 %
 FUNCTION {bst.pages.pre}
-{ ", pp." }    % (default)
+{ ", pp.\!\!" }    % (default)
 
 % page の前に付ける文字列 (英語文献用)
 %
 FUNCTION {bst.page.pre}
-{ ", p." }    % (default)
+{ ", p.\!\!" }    % (default)
 
 % page の後に付ける文字列 (複数ページ) (英語文献用)
 %
@@ -762,6 +762,16 @@ FUNCTION {bst.page.pre.jp}
 % page の後に付ける文字列 (日本語文献用)
 %
 FUNCTION {bst.page.post.jp}
+{ "" }    % 
+
+% page の前に付ける文字列　（複数ページ） (日本語文献用)
+%
+FUNCTION {bst.pages.pre.jp}
+{ ", pp." }    % 
+
+% page の後に付ける文字列 （複数ページ）(日本語文献用)
+%
+FUNCTION {bst.pages.post.jp}
 { "" }    % 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2824,7 +2834,7 @@ FUNCTION {format.pages}
     { "" * }
     { is.kanji.entry
         { pages multi.page.check
-           { bst.page.pre.jp pages n.dashify convert.num.pages * bst.page.post.jp * * }
+           { bst.pages.pre.jp pages n.dashify convert.num.pages * bst.pages.post.jp * * }
            { bst.page.pre.jp pages convert.num.pages * bst.page.post.jp * * }
          if$
         }
