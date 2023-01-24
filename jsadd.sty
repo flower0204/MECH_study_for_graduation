@@ -151,23 +151,15 @@
 %
 \newcommand{\@maketitle}{\newpage\null%
  \@abind=1
- \ifx\@jsubtitle\empty
- \ifx\@jtitle\empty\else\addvspace{-7pt}\@@title{\vspace{1pt}\femph{\@jtitle}}{\@jsubtitle}\fi
-\else
- \ifx\@jtitle\empty\else\addvspace{-7pt}\@@title{\vspace{1pt}\femph{\@jtitle}}{\vspace{-2pt}\large{\femph{（\@jsubtitle）}}}\fi
-\fi
+ \ifx\@jtitle\empty\else\addvspace{0pt}\@@title{\@jtitle}{\@jsubtitle}\fi
 %  \ifx\@jauthor\empty\else\@@author{\@jauthor}\fi
 %  \ifx\@jabstract\empty\else\addvspace{5pt}\@@abstract{\@jabstract}\fi
 %  \ifx\@jkeywords\empty\else\addvspace{5pt}\@@keywords{\@jkeywords}\fi
  \@abind=2
 % \ifx\@etitle\empty\else\addvspace{-22pt}\@@etitle{\@etitle}{\@esubtitle}\fi
- \ifx\@esubtitle\empty
- \ifx\@etitle\empty\else\addvspace{0pt}\@@etitle{\vspace{3pt}\@etitle}{\@esubtitle}\fi
-\else
- \ifx\@etitle\empty\else\addvspace{10pt}\@@etitle{\vspace{3pt}\@etitle}{\addvspace{-4pt}(\@esubtitle)}\fi
-\fi
- \ifx\@eauthor\empty\else\addvspace{7.5pt}\@@author{\vspace{-3.25pt}\@eauthor}\fi
- \ifx\@supervisor\empty\else\addvspace{0pt}\@@author{\vspace{3.5pt}\large{\@supervisor}}\fi
+ \ifx\@etitle\empty\else\addvspace{0pt}\@@etitle{\@etitle}{\@esubtitle}\fi
+ \ifx\@eauthor\empty\else\addvspace{5pt}\@@author{\@eauthor}\fi
+ \ifx\@supervisor\empty\else\addvspace{5pt}\@@author{\@supervisor}\fi
 %  \ifx\@eaffiliation\empty\else{%\addvspace{7pt}{
 %  \begin{center}\renewcommand{\arraystretch}{0.85}\fontsize{8pt}{12pt}\selectfont%\itshape
 %  \begin{tabular}{c}\@eaffiliation\end{tabular}
@@ -179,9 +171,11 @@
 % 	\end{center}%
 %  }\fi%
 %\ifx\@eabstract\empty\else\@@abstract{\centering{\textbf{Abstract}}\\\raggedright{{\@eabstract}}}\fi
- \ifx\@eabstract\empty\else\@@abstract{\centering{\vspace{0.45pt}\textbf{Abstract}}\\\justify{\vspace{5.3pt}{\@eabstract}}}\fi
- \ifx\@ekeywords\empty\else\addvspace{13.5pt}\@@keywords{\@ekeywords\\\vspace{-11pt}\quad}\fi
-\addvspace{0pt}\par}
+ %\ifx\@eabstract\empty\else\@@abstract{\centering{\textbf{Abstract}}\\\justify{{\@eabstract}}}\fi
+\ifx\@jabstract\empty\else\@@abstract{\centering{\textbf{概要}}\\\justify{{\@jabstract}}}\fi
+ \ifx\@ekeywords\empty\else\addvspace{13.5pt}\@@keywords{\@ekeywords}\fi
+ %\addvspace{26pt}\par}
+ \addvspace{6pt}\par}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% １段組用に変更ここまで %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
